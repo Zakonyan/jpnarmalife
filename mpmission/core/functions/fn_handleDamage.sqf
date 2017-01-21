@@ -42,6 +42,17 @@ if (!isNull _source) then {
         };
     };
 };
+
+//safezone
+	private "_safeZones";
+	_safeZones = ["safezone_1","safezone_2","safezone_3","safezone_4","safezone_5"];
+	{
+		if(player distance (getMarkerPos _x) < 600) exitWith {
+			_damage = false;
+	};
+} foreach _safeZones;
+		
+		
 if ((vehicle _source) isKindOf "LandVehicle") then {
 	_damage = false;
 };
