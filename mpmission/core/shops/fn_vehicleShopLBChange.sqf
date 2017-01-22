@@ -48,15 +48,13 @@ _armor = (_vehicleInfo select 9);
 
 ctrlShow [2330,true];
 (CONTROL(2300,2303)) ctrlSetStructuredText parseText format[
-    (localize "STR_Shop_Veh_UI_Rental")+ " <t color='#8cff9b'>$%1</t><br/>" +
-    (localize "STR_Shop_Veh_UI_Ownership")+ " <t color='#8cff9b'>$%2</t><br/>" +
-    (localize "STR_Shop_Veh_UI_MaxSpeed")+ " %3 km/h<br/>" +
-    (localize "STR_Shop_Veh_UI_HPower")+ " %4<br/>" +
-    (localize "STR_Shop_Veh_UI_PSeats")+ " %5<br/>" +
-    (localize "STR_Shop_Veh_UI_Trunk")+ " %6<br/>" +
-    (localize "STR_Shop_Veh_UI_Fuel")+ " %7<br/>" +
-    (localize "STR_Shop_Veh_UI_Armor")+ " %8",
-    [round(_initalPrice * _rentMultiplier)] call life_fnc_numberText,
+    (localize "STR_Shop_Veh_UI_Ownership")+ " <t color='#8cff9b'>$%1</t><br/>" +
+    (localize "STR_Shop_Veh_UI_MaxSpeed")+ " %2 km/h<br/>" +
+    (localize "STR_Shop_Veh_UI_HPower")+ " %3<br/>" +
+    (localize "STR_Shop_Veh_UI_PSeats")+ " %4<br/>" +
+    (localize "STR_Shop_Veh_UI_Trunk")+ " %5<br/>" +
+    (localize "STR_Shop_Veh_UI_Fuel")+ " %6<br/>" +
+    (localize "STR_Shop_Veh_UI_Armor")+ " %7",
     [round(_initalPrice * _buyMultiplier)] call life_fnc_numberText,
     _maxspeed,
     _horsepower,
