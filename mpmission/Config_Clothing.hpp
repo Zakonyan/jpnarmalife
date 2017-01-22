@@ -129,18 +129,18 @@ class Clothing {
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
             { "G_Squares", "", 10, { "", "", -1 } },
-            { "G_Shades_Blue", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackred", "", 20, { "", "", -1 } },
-            { "G_Sport_Checkered", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
-            { "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
-            { "G_Shades_Black", "", 25, { "", "", -1 } },
-            { "G_Lowprofile", "", 30, { "", "", -1 } },
-            { "G_Combat", "", 55, { "", "", -1 } },
-            { "G_Aviator", "", 100, { "", "", -1 } },
-            { "G_Lady_Mirror", "", 150, { "", "", -1 } },
-            { "G_Lady_Dark", "", 150, { "", "", -1 } },
-            { "G_Lady_Blue", "", 150, { "", "", -1 } }
+            { "G_Shades_Blue", "", 10, { "", "", -1 } },
+            { "G_Sport_Blackred", "", 10, { "", "", -1 } },
+            { "G_Sport_Checkered", "", 10, { "", "", -1 } },
+            { "G_Sport_Blackyellow", "", 10, { "", "", -1 } },
+            { "G_Sport_BlackWhite", "", 10, { "", "", -1 } },
+            { "G_Shades_Black", "", 10, { "", "", -1 } },
+            { "G_Lowprofile", "", 10, { "", "", -1 } },
+            { "G_Combat", "", 10, { "", "", -1 } },
+            { "G_Aviator", "", 10, { "", "", -1 } },
+            { "G_Lady_Mirror", "", 10, { "", "", -1 } },
+            { "G_Lady_Dark", "", 10, { "", "", -1 } },
+            { "G_Lady_Blue", "", 10, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -263,7 +263,7 @@ class Clothing {
             { "U_IG_leader", "Guerilla Leader", 300, { "", "", -1 } },
             { "U_O_PilotCoveralls", "", 300, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "", 300, { "", "", -1 } },
-            { "U_O_GhillieSuit", "", 1500, { "", "", -1 } }
+            { "U_O_GhillieSuit", "", 5000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -292,7 +292,7 @@ class Clothing {
             { "G_Lady_Mirror", "", 10, { "", "", -1 } },
             { "G_Lady_Dark", "", 10, { "", "", -1 } },
             { "G_Lady_Blue", "", 10, { "", "", -1 } },
-            { "G_Combat", "", 330, { "", "", -1 } }
+            { "G_Combat", "", 10, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -383,18 +383,18 @@ class Clothing {
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
             { "G_Squares", "", 10, { "", "", -1 } },
-            { "G_Shades_Blue", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackred", "", 20, { "", "", -1 } },
-            { "G_Sport_Checkered", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
+            { "G_Shades_Blue", "", 10, { "", "", -1 } },
+            { "G_Sport_Blackred", "", 10, { "", "", -1 } },
+            { "G_Sport_Checkered", "", 10, { "", "", -1 } },
+            { "G_Sport_Blackyellow", "", 10, { "", "", -1 } },
             { "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
-            { "G_Shades_Black", "", 25, { "", "", -1 } },
-            { "G_Lowprofile", "", 30, { "", "", -1 } },
-            { "G_Combat", "", 55, { "", "", -1 } },
-            { "G_Aviator", "", 100, { "", "", -1 } },
-            { "G_Lady_Mirror", "", 150, { "", "", -1 } },
-            { "G_Lady_Dark", "", 150, { "", "", -1 } },
-            { "G_Lady_Blue", "", 150, { "", "", -1 } }
+            { "G_Shades_Black", "", 10, { "", "", -1 } },
+            { "G_Lowprofile", "", 10, { "", "", -1 } },
+            { "G_Combat", "", 10, { "", "", -1 } },
+            { "G_Aviator", "", 10, { "", "", -1 } },
+            { "G_Lady_Mirror", "", 10, { "", "", -1 } },
+            { "G_Lady_Dark", "", 10, { "", "", -1 } },
+            { "G_Lady_Blue", "", 10, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
