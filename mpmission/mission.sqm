@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=9;
+	toggles=137;
 	class ItemIDProvider
 	{
-		nextID=1386;
+		nextID=1397;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={21022.105,16.705416,19436.029};
-		dir[]={-0.55872345,-0.77257615,0.30158728};
-		up[]={-0.67985678,0.63492167,0.36697251};
-		aside[]={0.47499862,-1.8626451e-008,0.87998694};
+		pos[]={20067.428,111.68321,6697.1621};
+		dir[]={0.58181465,-0.47949946,0.65694237};
+		up[]={0.31791046,0.87754166,0.35896119};
+		aside[]={0.74861634,1.2223609e-008,-0.66300446};
 	};
 };
 binarizationWanted=0;
@@ -195,24 +195,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -227,6 +209,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -285,7 +285,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=991;
+		items=996;
 		class Item0
 		{
 			dataType="Marker";
@@ -33667,15 +33667,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9169.8594,14.40688,21655.969};
-						angles[]={0.0012918708,1.9199357,0};
+						position[]={9169.8594,14.406878,21655.971};
+						angles[]={0.0012915437,1.9199319,0};
 					};
 					side="Civilian";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""reb_v_1"",""reb_v_1_1""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];";
+						init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""reb_v_1"",""reb_v_1_1""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];this enableSimulation false; this allowDamage false; this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];}; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_22"";  }];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 						name="reb_1_3";
 						disableSimulation=1;
 					};
@@ -33702,7 +33702,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item97
@@ -33711,20 +33730,19 @@ class Mission
 					class PositionInfo
 					{
 						position[]={12293.014,123.59074,8930.6689};
-						angles[]={0.025327841,3.4708891,0.022662206};
+						angles[]={0.025324726,3.4708841,0.022654373};
 					};
 					side="Civilian";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,""reb_v_2"",""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];";
+						init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,""reb_v_2"",""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];this enableSimulation false; this allowDamage false; this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Car""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_21"";  }]; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 						name="reb_1_3_1";
 						disableSimulation=1;
 					};
 					id=1048;
 					type="O_Soldier_F";
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33746,7 +33764,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item98
@@ -38416,7 +38453,7 @@ class Mission
 			text="@STR_MAR_Gun_Store";
 			type="loc_Bunker";
 			colorName="ColorGreen";
-			angle=178.59793;
+			angle=178.5979;
 			id=1273;
 			atlOffset=-21.499699;
 		};
@@ -40607,6 +40644,123 @@ class Mission
 			};
 			id=1384;
 			atlOffset=-0.0070238113;
+		};
+		class Item991
+		{
+			dataType="Marker";
+			position[]={12278.336,122.38,8921.9814};
+			name="car_g_21";
+			type="Empty";
+			angle=51.994961;
+			id=1389;
+			atlOffset=-1.0111542;
+		};
+		class Item992
+		{
+			dataType="Marker";
+			position[]={9184.417,14.443169,21652.65};
+			name="car_g_22";
+			type="Empty";
+			angle=51.994961;
+			id=1392;
+			atlOffset=1.4305115e-005;
+		};
+		class Item993
+		{
+			dataType="Marker";
+			position[]={20073.555,101.62787,6702.3677};
+			name="reb_v_3";
+			type="Empty";
+			angle=285.16611;
+			id=1393;
+			atlOffset=1.5912247;
+		};
+		class Item994
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20076.332,100.53413,6707.4727};
+						angles[]={6.1650786,3.4708841,0.021327924};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,""reb_v_3"",""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];this enableSimulation false; this allowDamage false; this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Car""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_23"";  }]; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+						name="reb_1_3_2";
+						disableSimulation=1;
+					};
+					id=1395;
+					type="O_Soldier_F";
+					atlOffset=-7.6293945e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1394;
+			atlOffset=-7.6293945e-006;
+		};
+		class Item995
+		{
+			dataType="Marker";
+			position[]={20068.998,99.301025,6705.5854};
+			name="car_g_23";
+			type="Empty";
+			angle=51.994961;
+			id=1396;
+			atlOffset=-0.96691132;
 		};
 	};
 };
