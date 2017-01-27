@@ -5,7 +5,7 @@ player createDiarySubject ["credits","Credits"];
 player createDiarySubject ["changelog","Change Log"];
 player createDiarySubject ["serverrules","General Rules"];
 player createDiarySubject ["policerules","Police Procedures/Rules"];
-player createDiarySubject ["safezones","Safe Zones (No Killing)"];
+player createDiarySubject ["safezones","Safe Zones"];
 //player createDiarySubject ["civrules","Civilian Rules"];
 player createDiarySubject ["illegalitems","Illegal Activity"];
 //player createDiarySubject ["gangrules","Gang Rules"];
