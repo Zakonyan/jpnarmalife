@@ -206,7 +206,7 @@ _cP = 0.01;
 
 if (!(_areaContested)) then {
     for "_i" from 0 to 1 step 0 do {
-        sleep  3; //rebel capture time * 100
+        sleep  1; //rebel capture time * 100
         _cP = _cP + _cpRate;
         _progressBar progressSetPosition _cP;
         _titleText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_title];
@@ -253,11 +253,14 @@ if (_gangNum == "Gang_Area_3") then {
     "gang_cap_3" setMarkerText _text;
 };
 
+
 //Tell the world
 [[0,1],"STR_GNOTF_CaptureAreaSuccess",true,[name player,(group player) getVariable "gang_name"]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 
 _area setVariable ["inCapture",false,true];
 _area setVariable ["gangOwner",group player,true];
+
+BANK = BANK + 3000;
 
 /*
 #############################################

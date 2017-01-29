@@ -16,7 +16,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_F", { "", "", -1 } },
+            { "C_Offroad_02_unarmed_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
@@ -162,10 +162,17 @@ class LifeCfgVehicles {
         price = -1;
         textures[] = {};
     };
+	
+	class C_Offroad_02_unarmed_F {
+		vItemSpace = 150;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 2500;
+        textures[] = {};
+	};
 
     class I_Truck_02_medical_F {
         vItemSpace = 150;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 25000;
         textures[] = {};
     };
