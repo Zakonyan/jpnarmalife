@@ -80,6 +80,12 @@ class CfgSounds {
         sound[] = {"\sounds\cuff.ogg", 1, 1};
         titles[] = {};
     };
+	
+	class buy {
+        name = "buy";
+        sound[] = {"\sounds\buy.ogg", 1, 1};
+        titles[] = {};
+    };
 };
 
 class CfgDebriefing {

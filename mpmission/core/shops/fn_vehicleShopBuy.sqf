@@ -81,6 +81,7 @@ if (((life_veh_shop select 0) == "med_air_hs")) then {
 
 if (_spawnPoint isEqualTo "") exitWith {hint localize "STR_Shop_Veh_Block";closeDialog 0;};
 CASH = CASH - _purchasePrice;
+playSound "buy";
 hint format[localize "STR_Shop_Veh_Bought",getText(configFile >> "CfgVehicles" >> _className >> "displayName"),[_purchasePrice] call life_fnc_numberText];
 
 //Spawn the vehicle and prep it.
