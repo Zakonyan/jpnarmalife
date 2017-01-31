@@ -47,12 +47,14 @@ class WeaponShops {
             { "arifle_TRG20_F", "", 25000, 2500 },
             { "arifle_Katiba_F", "", 30000, 5000 },
             { "srifle_DMR_01_F", "", 50000, -1 },
-            { "arifle_SDAR_F", "", 20000, 7500 }
+            { "arifle_SDAR_F", "", 20000, 7500 },
+			{ "launch_RPG7_F", "", 40000, 5000 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 300 },
             { "30Rnd_65x39_caseless_green", "", 275 },
             { "10Rnd_762x54_Mag", "", 500 },
+			{ "RPG7_F", "", 20000 },
             { "20Rnd_556x45_UW_mag", "", 125 }
         };
         accs[] = {
