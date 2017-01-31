@@ -38,6 +38,7 @@ if ([true,_type,_amount] call life_fnc_handleInv) then {
             hint format[localize "STR_Shop_Virt_BoughtGang",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
             _funds = group player getVariable "gang_bank";
             _funds = _funds - (_price * _amount);
+			playSound "buy";
             group player setVariable["gang_bank",_funds,true];
 
             if (life_HC_isActive) then {
@@ -50,11 +51,13 @@ if ([true,_type,_amount] call life_fnc_handleInv) then {
             if ((_price * _amount) > CASH) exitWith {[false,_type,_amount] call life_fnc_handleInv; hint localize "STR_NOTF_NotEnoughMoney";};
             hint format[localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
             CASH = CASH - _price * _amount;
+			playSound "buy";
         };
     } else {
         if ((_price * _amount) > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"; [false,_type,_amount] call life_fnc_handleInv;};
         hint format[localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
         CASH = CASH - _price * _amount;
+		playSound "buy";
     };
     [] call life_fnc_virt_update;
 };

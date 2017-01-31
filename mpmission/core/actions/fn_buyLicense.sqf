@@ -21,7 +21,7 @@ CASH = CASH - _price;
 
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 missionNamespace setVariable [_varName,true];
-
+playSound "buy";
 
 if(_varName == LICENSE_VARNAME("bounty",_sideFlag)) then { missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false] };
 if(_varName == LICENSE_VARNAME("bounty",_sideFlag)) then { missionNamespace setVariable [LICENSE_VARNAME("gun","civ"),false] };
