@@ -319,7 +319,7 @@ class LifeCfgVehicles {
     class C_Offroad_01_F {
         vItemSpace = 65;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 3600;
+        price = 10000;
         textures[] = {
             { "Red", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa",
@@ -376,7 +376,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Hatchback_01_sport_F {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 15000;
+        price = 200000;
         textures[] = {
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
@@ -455,7 +455,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Truck_02_transport_F {
         vItemSpace = 200;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 75000;
+        price = 100000;
         textures[] = {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -477,7 +477,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Hatchback_01_F {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 2500;
+        price = 5000;
         textures[] = {
             { "Beige", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
@@ -509,7 +509,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_SUV_01_F {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 6000;
+        price = 100000;
         textures[] = {
             { "Dark Red", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
@@ -529,7 +529,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Van_01_transport_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 9000;
+        price = 20000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -543,7 +543,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Van_01_box_F {
         vItemSpace = 150;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 12000;
+        price = 50000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -661,7 +661,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_SDV_01_F {
         vItemSpace = 50;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
-        price = 3600;
+        price = 36000;
         textures[] = {};
     };
 
