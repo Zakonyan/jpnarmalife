@@ -167,6 +167,7 @@ independent setFriend [civilian,0];
 civilian setFriend [west,0];
 civilian setFriend [independent,0];
 
+[] spawn life_fnc_autoSaveInv;
 
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
