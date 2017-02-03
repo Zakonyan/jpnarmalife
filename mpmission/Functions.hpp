@@ -60,7 +60,6 @@ class Life_Client_Core {
         class surrender {};
         class ticketAction {};
         class unrestrain {};
-		class catchTurtle {};
     };
 
     class Admin {

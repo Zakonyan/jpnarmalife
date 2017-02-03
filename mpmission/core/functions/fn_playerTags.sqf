@@ -54,7 +54,6 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
                         },format["<t color='#00AFFF'>%1</t>",_x getVariable ["realname",name _x]]]};
 
                     case (side _x isEqualTo independent): {format["<t color='#FF0000'><img image='a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1",_x getVariable ["realname",name _x]]};
-                    case ((side _x isEqualTo civilian) && (FETCH_CONST(life_adminlevel) > 1)): {format["<t color='#04B404'>%1</t><br/><t color='#04B404'>Admin</t>",_x getVariable ["realname",name _x]]};
                     default {
                         if (!isNil {(group _x) getVariable "gang_name"}) then {
                             format["<t color='#ff0000'>%1</t><br/><t size='0.8' color='#ff0000'>%2</t>",_x getVariable ["realname",name _x],(group _x) getVariable ["gang_name",""]];
