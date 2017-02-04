@@ -104,8 +104,7 @@ class CarShops {
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 1 } },
-            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
-            { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 3 } }
+            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } }
         };
     };
 
@@ -122,7 +121,6 @@ class CarShops {
         vehicles[] = {
             { "B_Boat_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_police_F", { "", "", -1 } },
-            { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_SDV_01_F", { "", "", -1 } }
         };
     };
@@ -162,7 +160,7 @@ class LifeCfgVehicles {
         price = -1;
         textures[] = {};
     };
-	
+
 	class C_Offroad_02_unarmed_F {
 		vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -203,26 +201,6 @@ class LifeCfgVehicles {
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
         price = 200000;
         textures[] = {};
-    };
-
-    class B_MRAP_01_hmg_F {
-        vItemSpace = 100;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 750000;
-        textures[] = {
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
-        };
-    };
-
-    class B_Boat_Armed_01_minigun_F {
-        vItemSpace = 175;
-        licenses[] = { {""}, {"cg"}, {""}, {""} };
-        price = 75000;
-        textures[] = { };
     };
 
     class B_Boat_Transport_01_F {

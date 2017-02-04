@@ -27,8 +27,8 @@ _text2 = _display displayCtrl 1102;
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
 _message = _message + "Useful Links (click on the links to open your browser)<br /><br />";
-_message = _message + " <a href='https://github.com/ArmaLife/Framework' color='#56BDD6'>ArmaLife</a> -- Our Website, check it out for the latest news and updates.<br /><br />";
-_message = _message + "TeamSpeak 3 Address: ADDRESS HERE  <br /><br />";
+_message = _message + " <a href='http://sukiyakijp.tk/' color='#56BDD6'>SUKIYAKI LIFE Forum</a> -- Our Website, check it out for the latest news and updates.<br /><br />";
+_message = _message + "Let's Join Discord: <a href='https://discord.gg/TabeYhB' color='#56BDD6'>SUKIYAKI LIFE Discord</a><br /><br />";
 
 
 //Fill only the first text
