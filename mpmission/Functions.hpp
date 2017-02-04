@@ -304,7 +304,6 @@ class Life_Client_Core {
         class settingsMenu {};
         class updateViewDistance {};
         class useItem {};
-        class wantedAddP {};
         class wantedInfo {};
         class wantedList {};
         class wantedMenu {};
@@ -357,7 +356,7 @@ class Life_Client_Core {
         class vehStoreItem {};
         class vehTakeItem {};
     };
-	
+
 	class autosave {
 		file = "derleon\autosave";
 		class autoSaveInv {};
