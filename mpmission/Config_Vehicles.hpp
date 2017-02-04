@@ -84,9 +84,8 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
-            { "I_Truck_02_medical_F", { "", "", -1 } },
-            { "O_Truck_03_medical_F", { "", "", -1 } },
-            { "B_Truck_01_medical_F", { "", "", -1 } }
+            { "C_SUV_01_F", { "", "", -1 } },
+            { "C_Hatchback_01_sport_F", { "", "", 1 } }
         };
     };
 
@@ -166,28 +165,7 @@ class LifeCfgVehicles {
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 2500;
         textures[] = {};
-	};
-
-    class I_Truck_02_medical_F {
-        vItemSpace = 150;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 25000;
-        textures[] = {};
-    };
-
-    class O_Truck_03_medical_F {
-        vItemSpace = 200;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 45000;
-        textures[] = {};
-    };
-
-    class B_Truck_01_medical_F {
-        vItemSpace = 250;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 60000;
-        textures[] = {};
-    };
+	  };
 
     class C_Rubberboat {
         vItemSpace = 45;
