@@ -205,6 +205,9 @@ class Life_Client_Core {
         class tazeSound {};
         class teleport {};
         class whereAmI {};
+        class autoMessages {}; 
+		class index {};
+        class inputMenu {};
     };
 
     class Gangs    {
@@ -224,6 +227,21 @@ class Life_Client_Core {
 		class areaCapture {};
     };
 
+	class Groups {
+        file = "core\groups";
+        class clientGroupKick {};
+        class clientGroupLeader {};
+        class createGroup {};
+        class groupBrowser {};
+        class groupManagement {};
+        class groupMenu {};
+        class joinGroup {};
+        class kickGroup {};
+        class leaveGroup {};
+        class setGroupLeader {};
+        class setGroupPass {};
+    };
+	
     class Housing {
         file = "core\housing";
         class buyHouse {};

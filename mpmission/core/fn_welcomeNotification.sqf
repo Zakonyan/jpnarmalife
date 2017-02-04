@@ -28,7 +28,7 @@ _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
 _message = _message + "Useful Links (click on the links to open your browser)<br /><br />";
 _message = _message + " <a href='http://sukiyakijp.tk/' color='#56BDD6'>SUKIYAKI LIFE Forum</a> -- Our Website, check it out for the latest news and updates.<br /><br />";
-_message = _message + "Let's Join Discord: <a href='https://discord.gg/TabeYhB' color='#56BDD6'>SUKIYAKI LIFE Discord</a><br /><br />";
+_message = _message + "Let's Join Discord: <a href='https://discord.gg/YhqwcXj' color='#56BDD6'>SUKIYAKI LIFE Discord</a><br /><br />";
 
 
 //Fill only the first text
