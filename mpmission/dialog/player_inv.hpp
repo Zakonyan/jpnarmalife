@@ -234,13 +234,13 @@ class playerSettings {
             w = (6.25 / 40);
             h = (1 / 25);
         };
-		
+
         class ButtonGroup: Life_RscButtonMenu {
             idc = 1919;
             text = "Group";
             onButtonClick = "[] call life_fnc_groupMenu";
             x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
+            y = 0.805;
             w = (6.25 / 40);
             h = (1 / 25);
         };
