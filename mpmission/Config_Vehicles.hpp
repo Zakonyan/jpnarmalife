@@ -56,7 +56,8 @@ class CarShops {
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
+            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
+            { "C_Plane_Civil_01_F", { "", "", -1 } }
         };
     };
 
@@ -656,6 +657,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 50000;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 250000;
+        textures[] = {};
+    };
+
+    class C_Plane_Civil_01_F {
+        vItemSpace = 50;
+        vFuelSpace = 50000;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 50000;
         textures[] = {};
     };
 };
