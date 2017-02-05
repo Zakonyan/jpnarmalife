@@ -164,7 +164,7 @@ class LifeCfgVehicles {
 	class C_Offroad_02_unarmed_F {
 		vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 7500;
+        price = 4500;
         textures[] = {};
 	  };
 
@@ -486,7 +486,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Van_01_transport_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 10000;
+        price = 20000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
