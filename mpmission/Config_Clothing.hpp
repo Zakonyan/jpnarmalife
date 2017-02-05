@@ -403,7 +403,8 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "", 25, { "", "", -1 } }
+            { "U_I_G_Story_Protagonist_F", "", 25, { "", "", -1 } },
+            { "U_I_G_resistanceLeader_F", "", 25, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } }
