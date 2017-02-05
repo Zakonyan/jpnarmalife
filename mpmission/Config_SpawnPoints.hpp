@@ -24,7 +24,7 @@ class CfgSpawnPoints {
             displayName = "Kavala";
             spawnMarker = "civ_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            licenses[] = { { "rebel", false } };
+            licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
 
@@ -106,8 +106,8 @@ class CfgSpawnPoints {
             displayName = "Air HQ";
             spawnMarker = "cop_spawn_4";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-            licenses[] = { { "cAir", true } };
-            level[] = { "life_coplevel", "SCALAR", 2 };
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
         };
 
         class HW {
@@ -115,7 +115,7 @@ class CfgSpawnPoints {
             spawnMarker = "cop_spawn_5";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
             licenses[] = { { "", true } };
-            level[] = { "life_coplevel", "SCALAR", 3 };
+            level[] = { "", "", -1 };
         };
     };
 

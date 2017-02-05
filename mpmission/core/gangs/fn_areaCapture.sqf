@@ -242,15 +242,15 @@ _gName = group player getVariable "gang_name";
 _Text = format["Area Controlled By %1",_gName];
 
 if (_gangNum == "Gang_Area_1") then {
-    "gang_cap_1" setMarkerText _text;
+    "gang_cap_1" setMarkerText _Text;
 };
 
 if (_gangNum == "Gang_Area_2") then {
-    "gang_cap_2" setMarkerText _text;
+    "gang_cap_2" setMarkerText _Text;
 };
 
 if (_gangNum == "Gang_Area_3") then {
-    "gang_cap_3" setMarkerText _text;
+    "gang_cap_3" setMarkerText _Text;
 };
 
 

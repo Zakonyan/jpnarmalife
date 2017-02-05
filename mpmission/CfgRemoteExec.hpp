@@ -67,6 +67,15 @@ class CfgRemoteExec {
         F(TON_fnc_clientGetKey,CLIENT)
         F(TON_fnc_clientMessage,CLIENT)
         F(TON_fnc_player_query,CLIENT)
+		F(life_fnc_createGroup,CLIENT)
+		F(life_fnc_joinGroup,CLIENT)
+		F(life_fnc_kickGroup,CLIENT)
+		F(life_fnc_clientGroupKick,CLIENT)
+		F(life_fnc_clientGroupLeader,CLIENT)
+		F(life_fnc_leaveGroup,CLIENT)
+		F(life_fnc_groupBrowser,CLIENT)
+		F(life_fnc_setGroupPass,CLIENT)
+
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)

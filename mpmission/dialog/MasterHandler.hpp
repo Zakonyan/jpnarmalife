@@ -28,3 +28,6 @@
 #include "compensate.hpp"
 #include "FuelStat.hpp"
 #include "AltisPhone.hpp"
+#include "group.hpp"
+#include "input.hpp"
+
