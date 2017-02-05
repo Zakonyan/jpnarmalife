@@ -34,7 +34,7 @@ if (!isServer) then {
 				{
 					if (LB_SETTINGS(getNumber,"lockManuelSync") isEqualTo 1) then 
 					{
-						systemChat format["Auto SAVE %1 min.", (LB_SETTINGS(getNumber,"lockManuelSync"))];
+						systemChat format["Auto Saved..."];
 					};
 				} else {
 					systemChat "Deine Daten wurden automatisch gespeichert.";

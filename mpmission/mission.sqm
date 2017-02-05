@@ -300,7 +300,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="SUKIYAKI LIFE v1.1.7";
+		briefingName="SUKIYAKI LIFE v1.1.9";
 		overviewText="@STR_MISC_overviewText";
 		startWeather=0.099999994;
 		startWind=0.29999998;

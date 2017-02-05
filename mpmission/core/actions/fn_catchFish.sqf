@@ -18,6 +18,7 @@ switch (true) do {
     case ((typeOf _fish) isEqualTo "Tuna_F") : {_typeName = localize "STR_ANIM_Tuna"; _type = "tuna_raw";};
     case ((typeOf _fish) isEqualTo "Mullet_F") : {_typeName = localize "STR_ANIM_Mullet"; _type = "mullet_raw";};
     case ((typeOf _fish) isEqualTo "CatShark_F") : {_typeName = localize "STR_ANIM_Catshark"; _type = "catshark_raw";};
+    case ((typeOf _fish) isEqualTo "Turtle_F") : {_typeName = localize "STR_NOTF_CaughtTurtle"; _type = "turtle_raw";};
     default {_type = ""};
 };
 

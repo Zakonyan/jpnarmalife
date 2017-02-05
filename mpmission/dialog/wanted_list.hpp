@@ -85,14 +85,6 @@ class life_wanted_menu {
             h = 0.6;
         };
 
-        class WantedAddL: Life_RscCombo    {
-            idc = 2407;
-            x = 0.542;
-            y = 0.28;
-            w = (8 / 52);
-            h = 0.03;
-        };
-
         class CloseButtonKey: Life_RscButtonMenu {
             idc = -1;
             text = "$STR_Global_Close";
@@ -108,17 +100,6 @@ class life_wanted_menu {
             text = "$STR_Wanted_Pardon";
             onButtonClick = "[] call life_fnc_pardon; closeDialog 0;";
             x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
-
-        class ButtonWantedAdd: Life_RscButtonMenu {
-            idc = 9800;
-            //shortcuts[] = {0x00050000 + 2};
-            text = "$STR_Wanted_Add";
-            onButtonClick = "[] call life_fnc_wantedAddP;";
-            x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
             y = 0.8 - (1 / 25);
             w = (6.25 / 40);
             h = (1 / 25);
@@ -140,15 +121,6 @@ class life_wanted_menu {
             y = 0.11;
             w = 0.2;
             h = 0.3;
-        };
-
-        class crimesText: Life_RscText {
-            idc = 1002;
-            text = "$STR_Wanted_Crimes";
-            x = 0.542;
-            y = 0.245;
-            w = (8 / 52);
-            h = 0.03;
         };
     };
 };

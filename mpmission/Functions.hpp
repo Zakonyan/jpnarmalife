@@ -60,7 +60,6 @@ class Life_Client_Core {
         class surrender {};
         class ticketAction {};
         class unrestrain {};
-		class catchTurtle {};
     };
 
     class Admin {
@@ -206,6 +205,9 @@ class Life_Client_Core {
         class tazeSound {};
         class teleport {};
         class whereAmI {};
+        class autoMessages {}; 
+		class index {};
+        class inputMenu {};
     };
 
     class Gangs    {
@@ -225,6 +227,21 @@ class Life_Client_Core {
 		class areaCapture {};
     };
 
+	class Groups {
+        file = "core\groups";
+        class clientGroupKick {};
+        class clientGroupLeader {};
+        class createGroup {};
+        class groupBrowser {};
+        class groupManagement {};
+        class groupMenu {};
+        class joinGroup {};
+        class kickGroup {};
+        class leaveGroup {};
+        class setGroupLeader {};
+        class setGroupPass {};
+    };
+	
     class Housing {
         file = "core\housing";
         class buyHouse {};
@@ -305,7 +322,6 @@ class Life_Client_Core {
         class settingsMenu {};
         class updateViewDistance {};
         class useItem {};
-        class wantedAddP {};
         class wantedInfo {};
         class wantedList {};
         class wantedMenu {};
@@ -358,7 +374,7 @@ class Life_Client_Core {
         class vehStoreItem {};
         class vehTakeItem {};
     };
-	
+
 	class autosave {
 		file = "derleon\autosave";
 		class autoSaveInv {};

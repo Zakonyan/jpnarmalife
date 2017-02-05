@@ -37,7 +37,6 @@ class CfgFunctions {
             class wantedPerson {};
             class wantedBounty {};
             class wantedRemove {};
-            class wantedAdd {};
             class wantedCrimes {};
             class wantedProfUpdate {};
         };

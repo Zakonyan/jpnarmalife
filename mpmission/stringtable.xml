@@ -2595,7 +2595,7 @@
     </Package>
     <Package name="Wanted_Menu">
         <Key ID="STR_Wanted_Title">
-            <Original>APD Wanted List</Original>
+            <Original>Wanted List</Original>
             <Czech>LAPD seznamu hledaných</Czech>
             <Spanish>Lista de Busqueda</Spanish>
             <Russian></Russian>
@@ -2639,7 +2639,7 @@
             <German>Wanted</German>
         </Key>
         <Key ID="STR_Wanted_Citizens">
-            <Original>Citizens</Original>
+            <Original>Criminals</Original>
             <Czech>občané</Czech>
             <French>Citoyens</French>
             <Spanish>Ciudadanos</Spanish>
@@ -5871,7 +5871,7 @@
             <Polish>Heroina oczyszczona</Polish>
         </Key>
         <Key ID="STR_Item_Marijuana">
-            <Original>Pot</Original>
+            <Original>Marijuana</Original>
             <Czech>Hrnec</Czech>
             <Spanish>Marihuana</Spanish>
             <Russian></Russian>

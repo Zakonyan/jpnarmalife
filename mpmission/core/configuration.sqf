@@ -48,6 +48,11 @@ life_pos_attach = [];
 life_civ_position = [];
 life_markers = false;
 
+//Group
+life_group_list = [];
+life_my_group = ObjNull;
+life_old_group = grpNull;
+
 //Settings
 life_settings_enableSidechannel = profileNamespace getVariable["life_enableSidechannel",true];
 life_settings_tagson = profileNamespace getVariable["life_settings_tagson",true];
