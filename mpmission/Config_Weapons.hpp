@@ -29,7 +29,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 60 },
-			{ "10Rnd_9x21_Mag", "", 50 },
+			      { "10Rnd_9x21_Mag", "", 50 },
             { "9Rnd_45ACP_Mag", "", 80 },
             { "30Rnd_9x21_Mag", "", 120 }
         };
@@ -48,13 +48,13 @@ class WeaponShops {
             { "arifle_Katiba_F", "", 30000, 5000 },
             { "srifle_DMR_01_F", "", 50000, -1 },
             { "arifle_SDAR_F", "", 20000, 7500 },
-			{ "launch_RPG7_F", "", 40000, 5000 }
+			      { "launch_RPG7_F", "", 40000, 5000 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 300 },
             { "30Rnd_65x39_caseless_green", "", 275 },
             { "10Rnd_762x54_Mag", "", 500 },
-			{ "RPG7_F", "", 20000 },
+			      { "RPG7_F", "", 20000 },
             { "20Rnd_556x45_UW_mag", "", 125 }
         };
         accs[] = {
@@ -71,16 +71,17 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 1500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
-            { "hgun_ACPC2_F", "", 4500, -1 },
-            { "hgun_PDW2000_F", "", 9500, -1 }
+            { "hgun_Pistol_heavy_02_F", "", 2500, 300 },
+            { "hgun_ACPC2_F", "", 3500, 400 },
+            { "hgun_Pistol_heavy_01_F", "", 4500, 500 },
+            { "SMG_02_F", "", 9500, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "11Rnd_45ACP_Mag", "", 45 },
+            { "30Rnd_9x21_Mag_SMG_02", "", 75 }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 950 }
@@ -94,10 +95,10 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-			{ "ItemWatch", "", 10, 5 },
-			{ "ItemCompass", "", 10, 5 },
+		      	{ "ItemWatch", "", 10, 5 },
+			      { "ItemCompass", "", 10, 5 },
             { "Binocular", "", 180, 90 },
-		    { "ItemMap", "", 10, 5 },
+		        { "ItemMap", "", 10, 5 },
             { "ItemGPS", "", 200, 100 },
             { "FirstAidKit", "", 30, 15 },
             { "NVGoggles", "", 120, 60 },
@@ -116,10 +117,10 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-			{ "ItemWatch", "", 10, 5 },
-			{ "ItemCompass", "", 10, 5 },
+			      { "ItemWatch", "", 10, 5 },
+			      { "ItemCompass", "", 10, 5 },
             { "Binocular", "", 180, 90 },
-		    { "ItemMap", "", 10, 5 },
+		        { "ItemMap", "", 10, 5 },
             { "ItemGPS", "", 200, 100 },
             { "FirstAidKit", "", 30, 15 },
             { "NVGoggles", "", 120, 60 },
@@ -131,7 +132,7 @@ class WeaponShops {
         mags[] = {};
         accs[] = {};
     };
-	
+
 	class bounty {
         name = "Bounty Hunter Weapon";
         side = "civ";
@@ -140,14 +141,14 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Stun Pistol", 1700, 850 },
             { "HandGrenade_Stone", "Flashbang", 1000, -1 },
-			{ "ItemWatch", "", 10, 5 },
-			{ "ItemCompass", "", 10, 5 },
+		      	{ "ItemWatch", "", 10, 5 },
+			      { "ItemCompass", "", 10, 5 },
             { "Binocular", "", 180, 90 },
-		    { "ItemMap", "", 10, 5 },
+		        { "ItemMap", "", 10, 5 },
             { "ItemGPS", "", 200, 100 },
             { "FirstAidKit", "", 30, 15 },
             { "NVGoggles", "", 120, 60 },
-			{ "Chemlight_red", "", 10, 5 },
+			      { "Chemlight_red", "", 10, 5 },
             { "Chemlight_yellow", "", 10, 5 },
             { "Chemlight_green", "", 10, 5 },
             { "Chemlight_blue", "", 10, 5 }
@@ -242,14 +243,14 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-			{ "ItemWatch", "", 10, 5 },
-			{ "ItemCompass", "", 10, 5 },
+			      { "ItemWatch", "", 10, 5 },
+			      { "ItemCompass", "", 10, 5 },
             { "Binocular", "", 180, 90 },
-		    { "ItemMap", "", 10, 5 },
+		        { "ItemMap", "", 10, 5 },
             { "ItemGPS", "", 200, 100 },
             { "FirstAidKit", "", 30, 15 },
             { "NVGoggles", "", 120, 60 },
-			{ "Chemlight_red", "", 10, 5 },
+			      { "Chemlight_red", "", 10, 5 },
             { "Chemlight_yellow", "", 10, 5 },
             { "Chemlight_green", "", 10, 5 },
             { "Chemlight_blue", "", 10, 5 }

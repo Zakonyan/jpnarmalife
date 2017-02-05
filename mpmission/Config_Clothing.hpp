@@ -209,7 +209,10 @@ class Clothing {
         license = "";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } }
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "U_OG_Guerilla1_1", "", 500, { "", "", -1 } },
+            { "U_IG_Guerilla2_1", "", 500, { "", "", -1 } },
+            { "U_IG_leader", "", 700, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } }
@@ -219,10 +222,35 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "", 450, { "", "", -1 } }
+            { "V_Rangemaster_belt", "", 450, { "", "", -1 } },
+            { "V_Chestrig_khk", "", 450, { "", "", -1 } },
+            { "V_HarnessOGL_brn", "", 450, { "", "", -1 } },
+            { "V_HarnessOSpec_gry", "", 450, { "", "", -1 } }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, { "", "", -1 } }
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 60, { "", "", -1 } },
+            { "B_AssaultPack_khk", "", 60, { "", "", -1 } },
+            { "B_AssaultPack_dgtl", "", 60, { "", "", -1 } },
+            { "B_AssaultPack_rgr", "", 60, { "", "", -1 } },
+            { "B_AssaultPack_sgg", "", 60, { "", "", -1 } },
+            { "B_AssaultPack_blk", "", 60, { "", "", -1 } },
+            { "B_AssaultPack_cbr", "", 60, { "", "", -1 } },
+            { "B_AssaultPack_mcamo", "", 60, { "", "", -1 } },
+            { "B_TacticalPack_oli", "", 50, { "", "", -1 } },
+            { "B_Kitbag_mcamo", "", 50, { "", "", -1 } },
+            { "B_Kitbag_sgg", "", 50, { "", "", -1 } },
+            { "B_Kitbag_cbr", "", 50, { "", "", -1 } },
+            { "B_Bergen_sgg", "", 150, { "", "", -1 } },
+            { "B_Bergen_mcamo", "", 150, { "", "", -1 } },
+            { "B_Bergen_rgr", "", 150, { "", "", -1 } },
+            { "B_Bergen_blk", "", 150, { "", "", -1 } },
+            { "B_Carryall_ocamo", "", 250, { "", "", -1 } },
+            { "B_Carryall_oucamo", "", 250, { "", "", -1 } },
+            { "B_Carryall_mcamo", "", 250, { "", "", -1 } },
+            { "B_Carryall_oli", "", 250, { "", "", -1 } },
+            { "B_Carryall_khk", "", 250, { "", "", -1 } },
+            { "B_Carryall_cbr", "", 250, { "", "", -1 } }
         };
     };
 
@@ -368,7 +396,7 @@ class Clothing {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } }
         };
     };
-	
+
 	class bounty {
         title = "STR_Shops_C_Bounty";
         license = "bounty";
