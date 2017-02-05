@@ -56,8 +56,7 @@ class CarShops {
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
-            { "C_Plane_Civil_01_F", { "", "", -1 } }
+            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
         };
     };
 
@@ -164,7 +163,7 @@ class LifeCfgVehicles {
 	class C_Offroad_02_unarmed_F {
 		vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 4500;
+        price = 7500;
         textures[] = {};
 	  };
 
@@ -486,7 +485,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Van_01_transport_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 20000;
+        price = 10000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -657,14 +656,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 50000;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 250000;
-        textures[] = {};
-    };
-
-    class C_Plane_Civil_01_F {
-        vItemSpace = 50;
-        vFuelSpace = 50000;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 50000;
         textures[] = {};
     };
 };
