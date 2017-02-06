@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3632.8696,36.374016,13137.242};
-		dir[]={0.50429899,-0.53606337,-0.67708242};
-		up[]={0.32029799,0.84408075,-0.43004045};
-		aside[]={-0.80204237,-3.2782555e-007,-0.59737039};
+		pos[]={3189.7275,69.270882,12839.048};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -257,24 +257,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -289,6 +271,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -726,7 +726,7 @@ class Mission
 			position[]={3653.3772,10.238037,13111.187};
 			name="civ_car_1";
 			type="Empty";
-			angle=259.17566;
+			angle=259.17563;
 			id=39;
 			atlOffset=-0.046000481;
 		};
@@ -1313,12 +1313,12 @@ class Mission
 		class Item93
 		{
 			dataType="Marker";
-			position[]={25705.076,21.356598,21385.447};
+			position[]={25706.174,21.383728,21387.719};
 			name="civ_car_4";
 			type="Empty";
-			angle=269.7457;
+			angle=147.94055;
 			id=97;
-			atlOffset=0.76827812;
+			atlOffset=0.7682457;
 		};
 		class Item94
 		{
@@ -1390,7 +1390,7 @@ class Mission
 			position[]={14638.213,2.8595431e+038,16766.105};
 			name="civ_air_99";
 			type="Empty";
-			angle=308.02087;
+			angle=130.24551;
 			id=105;
 			atlOffset=2.8595431e+038;
 		};
@@ -1400,7 +1400,7 @@ class Mission
 			position[]={14634.339,2.8587253e+038,16761.973};
 			name="civ_air_99_2";
 			type="Empty";
-			angle=319.56299;
+			angle=138.71997;
 			id=106;
 			atlOffset=2.8587253e+038;
 		};
@@ -1420,7 +1420,7 @@ class Mission
 			position[]={26788.693,21.311523,24642.051};
 			name="civ_air_2";
 			type="Empty";
-			angle=308.02112;
+			angle=139.25517;
 			id=108;
 			atlOffset=-0.046953201;
 		};
@@ -1430,7 +1430,7 @@ class Mission
 			position[]={26785.877,21.439575,24638.824};
 			name="civ_air_2_2";
 			type="Empty";
-			angle=319.56326;
+			angle=121.21509;
 			id=109;
 			atlOffset=-0.007484436;
 		};
@@ -1766,12 +1766,12 @@ class Mission
 		class Item137
 		{
 			dataType="Marker";
-			position[]={25703.928,20.548584,21383.016};
+			position[]={25705.469,20.593384,21386.824};
 			name="car_g_2";
 			type="Empty";
-			angle=220.38788;
+			angle=148.20715;
 			id=147;
-			atlOffset=-0.010732651;
+			atlOffset=-0.010667801;
 		};
 		class Item138
 		{
@@ -29070,7 +29070,7 @@ class Mission
 			position[]={14042.466,25.535233,18753.012};
 			name="car_g_5";
 			type="Empty";
-			angle=51.994961;
+			angle=115.75637;
 			id=1184;
 		};
 		class Item802
@@ -29090,7 +29090,7 @@ class Mission
 			position[]={9196.2354,18.390944,12106.498};
 			name="car_g_6";
 			type="Empty";
-			angle=51.994961;
+			angle=330.12714;
 			id=1189;
 		};
 		class Item804
@@ -29111,7 +29111,7 @@ class Mission
 			position[]={16739.621,10.903931,12507.76};
 			name="car_g_7";
 			type="Empty";
-			angle=51.994961;
+			angle=324.43616;
 			id=1196;
 			atlOffset=-1.1977806;
 		};
@@ -29132,7 +29132,7 @@ class Mission
 			position[]={12671.748,2.1784463,14239.363};
 			name="car_g_9";
 			type="Empty";
-			angle=51.994961;
+			angle=241.46078;
 			id=1204;
 			atlOffset=-1.2015622;
 		};
@@ -29207,7 +29207,7 @@ class Mission
 			position[]={26787.922,21.387207,24641.139};
 			name="car_g_11";
 			type="Empty";
-			angle=220.38788;
+			angle=127.82625;
 			id=1223;
 			atlOffset=-0.0051364899;
 		};
@@ -29485,7 +29485,7 @@ class Mission
 			position[]={28329.076,14.571655,25772.574};
 			name="car_g_17";
 			type="Empty";
-			angle=51.994961;
+			angle=273.30563;
 			id=1290;
 			atlOffset=-0.0025882721;
 		};
@@ -29663,7 +29663,7 @@ class Mission
 			position[]={16736.289,4.1902888e+036,12505.792};
 			name="civ_car_98";
 			type="Empty";
-			angle=222.94591;
+			angle=323.97418;
 			id=1355;
 			atlOffset=4.1902888e+036;
 		};
@@ -29673,7 +29673,7 @@ class Mission
 			position[]={16742.816,3.3293922e+034,12505.674};
 			name="civ_car_98_1";
 			type="Empty";
-			angle=208.40796;
+			angle=335.47549;
 			id=1356;
 			atlOffset=3.3293922e+034;
 		};
@@ -30509,7 +30509,7 @@ class Mission
 			position[]={26786.943,21.424316,24640.053};
 			name="air_g_4";
 			type="Empty";
-			angle=153.94185;
+			angle=130.09291;
 			id=1437;
 			atlOffset=-0.0020160675;
 		};
